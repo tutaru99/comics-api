@@ -27,7 +27,7 @@ jobs:
       - name: npm install, build and test
         run: |
           npm install
-        
+          
         env:
           privateKey: ${{ secrets.privateKey }}
           publicKey: ${{ secrets.publicKey }}
