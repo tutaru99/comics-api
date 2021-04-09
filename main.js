@@ -184,7 +184,7 @@ app.get('/searchcomics', async (req, res) => {
 });
 
 
-//Search for comics (titlestartsWith)
+//Search for comics (titlestartsWith)t
 app.get('/searchseries', async (req, res) => {
     var result = null;
     const searchSeries = req.query.searchSeries
