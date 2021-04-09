@@ -189,8 +189,7 @@ app.get('/searchseries', async (req, res) => {
     var result = null;
     const searchSeries = req.query.searchSeries
     await axios.get(`http://gateway.marvel.com/v1/public/series?titleStartsWith=${searchSeries}&ts=${ts}&apikey=${process.env.publicKey}&hash=${md5(ts + process.env.privateKey + process.env.publicKey)}`,
-        {
-            params: {
+        {    params: {
                 offset: (req.query.searchPage - 1) * 20
             }
         }).then(res => {
