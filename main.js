@@ -148,7 +148,7 @@ app.get('/story', async (req, res) => {
     res.json(result);
 });
 
-//SEARCH
+//SEARCHs
 //Search for character (namestartsWith)
 app.get('/char', async (req, res) => {
     var result = null;
