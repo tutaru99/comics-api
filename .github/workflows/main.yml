@@ -28,7 +28,7 @@ jobs:
         run: |
           npm install
           npm test
-          
+
         env:
           privateKey: ${{ secrets.privateKey }}
           publicKey: ${{ secrets.publicKey }}
@@ -38,6 +38,7 @@ jobs:
     name: Deploy
     needs: [test]
     runs-on: ubuntu-latest
+    
 
     steps:
       - name: Checkout

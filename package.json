@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node main.js",
     "away": "nodemon main.js",
-    "test": "mocha './test/**/*.js' --timeout 150000"
+    "test": "mocha './test/**/*.js' --timeout 150000 --exit"
   },
   "dependencies": {
     "axios": "^0.21.1",
