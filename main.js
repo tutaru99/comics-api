@@ -149,7 +149,7 @@ app.get('/story', async (req, res) => {
 });
 
 //SEARCHs
-//Search for character (namestartsWith)
+//Search for character (namestartsWith) still works?
 app.get('/char', async (req, res) => {
     var result = null;
     const searchChar = req.query.searchChar
