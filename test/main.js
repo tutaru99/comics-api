@@ -52,7 +52,7 @@ describe('/GET stories', () => {
         })
     });
 });
-/* asdasd */
+/* asdssssasd */
 describe('/GET search character', () => {
     it('it should GET searched character', async function () {
         await chai.request(server).get('/char?searchChar=x-man&searchPage=1').then(res => {
