@@ -11,7 +11,6 @@ Api for the comics-web-app repo front-end. Fetches and displays data.
 Live ver. - https://api-comics.herokuapp.com/characters - single entry point example.
 ```
 ```
-
     --Both Private and Public keys must be accquired at - https://developer.marvel.com/documentation/getting_started
     --Heroku part is optional - it is being used for the continues integration through github actions (ci/cd)
 
