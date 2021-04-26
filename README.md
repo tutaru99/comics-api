@@ -8,8 +8,7 @@ To run mocha+chai unit tests - npm run test
 ```
 ```
 Api for the comics-web-app repo front-end. Fetches and displays data.
-Change herokuAPI data variable to your personal local/live uri.
-Live ver. - https://api-comics.herokuapp.com/characters - single entry point example
+Live ver. - https://api-comics.herokuapp.com/characters - single entry point example.
 ```
 ```
 
